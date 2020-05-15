@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*中央に寄せる*/
+*{
+	text-align:center;
+
+}
+
+.aspiration{
+	position:relative;
+	top:200px;
+}
