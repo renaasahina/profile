@@ -74,10 +74,7 @@ $(function() {
 });
 
 
-//何秒後に写真を変更するかを指定
-$(function() {
-	setInterval("breadslideSwitch()", 4000);
-});
+
 
 
 //cafeスライドショー設定

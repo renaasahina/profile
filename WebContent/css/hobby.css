@@ -1,11 +1,22 @@
 @charset "UTF-8";
-#h1{
+
+h1{
 	text-align:center;
 }
 
+#stlye{
+	background-color:snow;
+	width50px;
+}
+
+
+
+
+
+
 /*travelの要素の配置設定*/
 .travel{
-	margin-top:300px;
+	margin-top:0;
 	clear:left;
 }
 .travel_text{
@@ -19,6 +30,8 @@
 }
 #slider01 img{
    position: absolute;
+   top:150px;
+   left:1000px;
    z-index: 8;
    opacity: 0.0;
 }
@@ -43,7 +56,7 @@
 #slider02 img{
    position: absolute;
    top:400px;
-   left:650px;
+   left:1000px;
    margin:auto;
    z-index: 8;
    opacity: 0.0;
@@ -52,6 +65,8 @@
    z-index: 10;
    opacity: 1.0;
 }
+
+
 /*breadの要素の配置設定*/
 .bread{
 	margin-top:200px;
@@ -59,7 +74,7 @@
 }
 .bread_text{
 	float:left;
-	margin-top:200px;
+	margin-top:300px;
 }
 /*breadスライドショー設定*/
 #slider03 {
@@ -68,16 +83,17 @@
 }
 #slider03 img{
    position: absolute;
+   top:450px;
+   left:1000px;
    margin:auto;
    z-index: 8;
    opacity: 0.0;
 }
 #slider03 img.active {
-	top:400px;
-	left:650px;
    z-index: 10;
    opacity: 1.0;
 }
+
 
 /*cafeの要素の配置設定*/
 .cafe{
@@ -96,7 +112,7 @@
 #slider04 img{
    position: absolute;
    top:400px;
-   left:650px;
+   left:1000px;
    margin:auto;
    z-index: 8;
    opacity: 0.0;
@@ -123,8 +139,8 @@
 }
 #slider05 img{
    position: absolute;
-   top:400px;
-   left:650px;
+   top:450px;
+   left:1000px;
    margin:auto;
    z-index: 8;
    opacity: 0.0;
